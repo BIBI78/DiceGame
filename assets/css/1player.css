@@ -52,11 +52,7 @@ h1 {
 
 }
 
-/* 
-.splash-screen {
-  width: 100vw;
-  height: 100vh;
-} */
+
 
 
 @keyframes bg-animation {
@@ -110,7 +106,7 @@ h1 {
   transform: skew(-10deg) rotate(-10deg) translateX(1rem);
 }
 
-/* game options , player 1 , cpu , etc.. */
+
 .options {
   display: flex;
   flex-direction: column;
@@ -142,9 +138,7 @@ h1 {
   color:  rgb(232, 16, 240);
   text-shadow: 2px 2px 0  rgb(116, 122, 117)
 
-  /* color: transparent;
- background: linear-gradient(90deg,#ff14bc, #fff70c,  #084eff);   */
-
+ 
 
 }
 

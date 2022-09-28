@@ -105,7 +105,7 @@ function p1RollAgain(){
     const rollOneValue = myRollOne[0];
     
     compareValueOne = myRollOne[0]*10;
-    // compareValueOne = rollOneValue;
+   
     console.log("I.tripples //third conditon "+compareValueOne);
 
 
@@ -113,27 +113,26 @@ function p1RollAgain(){
 
       const rollOneValue = myRollOne;
       
-      // compareValueOne = myRollOne[2];
+  
       compareValueOne = myRollOne[2]*10;
       console.log("I. snake eyes//fourth conditon "+compareValueOne);
       
     } else if ((myRollOne[1] === myRollOne[2])) {
       const rollOneValue = myRollOne;
-      // compareValueOne = myRollOne[0];
+  
       compareValueOne = myRollOne[0]*10;
       console.log("I. snake eyes//fifth conditon "+compareValueOne);
     
     } else if ((myRollOne[0] === myRollOne[2])){
       const rollOneValue = myRollOne;
-      // compareValueOne = myRollOne[1];
+      
       compareValueOne = myRollOne[1]*10;
       console.log("I. snake eyes//sixth conditon "+compareValueOne);
 
       
     } else {
    
-      // compareValueOne = 999;
-      // console.log("I. seventh conditon, dont want "+compareValueOne);
+    
       p1RollAgain()
       
     }
