@@ -47,7 +47,10 @@
   }
   .title {
     margin: auto;
-    font-family: "Permanent Marker", monospace;
+    /* font-family: "Permanent Marker", monospace; */
+
+    font-family: "Rock Salt", monospace;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
