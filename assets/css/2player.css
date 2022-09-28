@@ -21,21 +21,6 @@
   
   
   
-  /*       
-  body:before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    background: repeating-linear-gradient(#0D122B, #0D122B 2px, #565B73 2px, #565B73 4px);
-    opacity: 0.2;
-    z-index: 100;
-    content: "";
-    pointer-events: none;
-  } */
-  
   
   a {
     text-decoration: none;
@@ -46,6 +31,8 @@
   h1 {
     margin: 0;
   }
+
+
   #win-header{
     color: rgb(192, 192, 192);
     text-shadow: 2px 2px 0 rgb(192, 11, 126);
@@ -53,8 +40,7 @@
   }
   
   
-  
-  
+
   @keyframes bg-animation {
     0% {background-position: left;}
     100% {background-position: right;}
@@ -128,8 +114,15 @@
     margin: auto; 
     margin-bottom: 1%;
   }
-  
-  
+/* 
+  .die{
+
+   
+    margin-bottom: 10%;
+
+
+  }
+   */
   
   .credit{
     margin-top: 10px;
