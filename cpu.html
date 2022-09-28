@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-  <title>PLAYER 1</title>
+  <title>2 PLAYERS</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0 user-scalable=no">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Permanent+Marker" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/1player.css">
+  <link rel="stylesheet" href="assets/css/cpu.css">
 </head>
 
 <body>
@@ -23,8 +23,7 @@
            
     <div class="options green-colorway">
                
-      
-    
+  
                
                 <a href="1player.html">1 Player</a>
                 <a href="2player.html" >2 Players</a>
@@ -36,12 +35,30 @@
     </div>
 
 
-    <div class="  die"> 
-                  
-      <img id ="d1" src ="assets/images/d1.png"     height= "30%" width="6%"></span>
-      <img id ="d2" src ="assets/images/d2.png"     height= "30%" width="6%"></span>
-      <img id ="d3" src ="assets/images/d3.png"     height= "30%" width="6%"></span>
-    </div> 
+    <div class ="die">
+
+
+      <div class="  green-colorway"> 
+        
+        <img id ="d1" src ="assets/images/d1.png"     height= "30%" width="6%"></span>
+        <img id ="d2" src ="assets/images/d2.png"     height= "30%" width="6%"></span>
+        <img id ="d3" src ="assets/images/d3.png"     height= "30%" width="6%"></span>
+      </div> 
+  
+       
+      </div>
+      
+      <div class ="die">
+        <div class="green-colorway"> 
+          
+            <img id ="d4" src ="assets/images/d4.png" height= "30%" width="6%"></span>
+            <img id ="d5" src ="assets/images/d5.png" height= "30%" width="6%"></span>
+            <img id ="d6" src ="assets/images/d6.png" height= "30%" width="6%"></span>
+        </div>
+       
+
+      </div>
+      
                 
                 
               
@@ -54,17 +71,17 @@
            
     </div>
 
- 
+   
 
      
     <div class = "button green-colorway">
        
-      <button class = "slatt" onclick ="Player1(); play()">ROLL</button>
-      
+      <button class = "slatt" onclick ="Player1(); play()">P1</button> 
+      <button class = "slatt" onclick ="Player2(); play()">P2</button> 
+        <button class = "slatt" onclick =" Kompare(); play()">pvp</button>
    
-      <button id="btn" class = "slatt" onclick ="rollSpinKompareLoopPlayer1(); play()">EVENT</button>
-    
-
+          
+          
        
         
       </div>
@@ -93,7 +110,7 @@
 
 
 
-  <script src="assets/js/1player.js"></script>
+  <script src="assets/js/cpu.js"></script>
 </body>
 
 </html>
