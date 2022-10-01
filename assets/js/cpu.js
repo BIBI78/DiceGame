@@ -511,12 +511,12 @@ function p2RollAgain(){
    
     if(compareValueTwo ===1000)  {
         console.log("automatic win player 2");
-        document.querySelector('h1').innerHTML = 'Automatic Win PLAYER 2'
+        document.querySelector('h1').innerHTML = 'Automatic Win CPU'
         
         
         } else if (compareValueTwo === 0){
         console.log("automatic lose player 2");
-        document.querySelector('h1').innerHTML = 'Automatic Lose PLAYER 2'
+        document.querySelector('h1').innerHTML = 'Automatic Lose CPU'
       
       } else if (myRollTwo[0] === myRollTwo[1] && myRollTwo[1] === myRollTwo[2]){
       
@@ -533,7 +533,7 @@ function p2RollAgain(){
       
         //??????? why does this keep coming up?  
         } else {
-        console.log("no idea what case this is")
+        console.log("slatt")
         document.querySelector('h1').innerHTML = 'Snake Eyes'
       
         }
@@ -559,8 +559,8 @@ function p2RollAgain(){
   function Kompare(){
 
     if (compareValueOne < compareValueTwo){
-        console.log("Player Two Wins");
-        document.querySelector('h1').innerHTML = 'Player Two Wins'
+        console.log("CPU Wins");
+        document.querySelector('h1').innerHTML = 'CPU Wins'
         // document.getElementsByClassName('winner').innerHTML = 'TEST 4pf'
         
         } else if(compareValueOne > compareValueTwo) {
@@ -578,17 +578,17 @@ function p2RollAgain(){
         
         } else if (compareValueTwo === 0){
         console.log("automatic lose player 2")
-        document.querySelector('h1').innerHTML = 'Automatic Lose PLAYER 2'
+        document.querySelector('h1').innerHTML = 'Automatic Lose CPU'
         
         }  else if (compareValueTwo === 100){
-        console.log("automatic win player 2")
-        document.querySelector('h1').innerHTML = 'Automatic Win PLAYER 2'
+        console.log("automatic win CPU")
+        document.querySelector('h1').innerHTML = 'Automatic Win CPU'
         } else if (compareValueOne === compareValueTwo){
         console.log("equals , so roll again ")
         document.querySelector('h1').innerHTML = 'Roll Again'
         
         } else {
-        console.log("no idea what case this is")
+        console.log("slatt")
         } 
 
   }

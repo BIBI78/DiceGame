@@ -117,15 +117,16 @@
     margin: auto; 
     margin-bottom: 1%;
   }
-/* 
-  .die{
 
+  .die{
+    /* height :30%;
+    width : 6%; */
    
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 
 
   }
-   */
+  
   
   .credit{
     margin-top: 10px;
@@ -145,6 +146,13 @@
   
   .big-font {
     font-size: 6rem;
+  }
+
+
+
+  .button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
   }
   
   
@@ -249,4 +257,14 @@
     text-align: center;
       text-transform: uppercase;
       margin: 0;
+  }
+
+  .button{
+
+    background-color: black;
+    text-align: center;
+      text-transform: uppercase;
+      margin: 0;
+      font-size: 30px;
+
   }

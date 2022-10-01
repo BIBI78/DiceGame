@@ -21,20 +21,7 @@ body {
 
 
 
-/*       
-body:before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  background: repeating-linear-gradient(#0D122B, #0D122B 2px, #565B73 2px, #565B73 4px);
-  opacity: 0.2;
-  z-index: 100;
-  content: "";
-  pointer-events: none;
-} */
+
 
 
 a {
@@ -152,6 +139,11 @@ h1 {
 }
 
 
+.button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
 /* edit this  */
 @media (min-width: 400px) {
   body {
@@ -253,4 +245,24 @@ width: 6%;
   text-align: center;
     text-transform: uppercase;
     margin: 0;
+}
+
+.button{
+
+  background-color: black;
+  text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 30px;
+
+}
+
+
+.die{
+  /* height :30%;
+  width : 6%; */
+ 
+  margin-bottom: 5%;
+
+
 }

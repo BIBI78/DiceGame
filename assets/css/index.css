@@ -21,21 +21,6 @@
 
 
 
-/*       
-  body:before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    background: repeating-linear-gradient(#0D122B, #0D122B 2px, #565B73 2px, #565B73 4px);
-    opacity: 0.2;
-    z-index: 100;
-    content: "";
-    pointer-events: none;
-  } */
-
 
   a {
     text-decoration: none;
@@ -48,11 +33,7 @@
   }
 
 
-/* 
-  .splash-screen {
-    width: 100vw;
-    height: 100vh;
-  } */
+
 
 
   @keyframes bg-animation {
@@ -129,12 +110,7 @@
     margin-bottom: 1%;
   }
 
-/* 
-  .bottom {
-    display: flex;
-    flex-direction: column;
-    height: 10vh;
-  } */
+
 
   
   .credit{
@@ -159,6 +135,11 @@
     font-size: 6rem;
   }
   
+
+  .button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+  }
 
   /* edit this  */
   @media (min-width: 400px) {
