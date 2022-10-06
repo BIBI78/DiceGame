@@ -36,6 +36,18 @@ h1 {
 #win-header{
   color: rgb(192, 192, 192);
   text-shadow: 2px 2px 0 rgb(192, 11, 126);
+  margin: auto;
+  font-family: "Permanent Marker", monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40vh;
+  font-size: 4rem;
+  line-height: 0.75;
+  word-break: break-word;
+  max-width: 500px;
+  text-transform: None;
 
 }
 
@@ -48,7 +60,7 @@ h1 {
 }
 .title {
   margin: auto;
-  font-family: "Permanent Marker", monospace;
+  font-family: "UnifrakturMaguntia", monospace;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -58,6 +70,7 @@ h1 {
   line-height: 0.75;
   word-break: break-word;
   max-width: 500px;
+  text-transform: None;
 
 
 }
@@ -85,13 +98,6 @@ h1 {
   /* animation: bg-animation .25s infinite alternate; */
 }
 
-/* not mine */
-.title-top {
-  transform: skew(-10deg) rotate(-10deg) translateX(-2rem);
-}
-.title-bottom {
-  transform: skew(-10deg) rotate(-10deg) translateX(1rem);
-}
 
 
 .options {
@@ -161,7 +167,7 @@ h1 {
   }
 
   .title {
-    font-size: 3rem;
+    font-size: 5rem;
     height: 50vh;
   }
 
