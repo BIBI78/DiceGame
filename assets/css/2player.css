@@ -36,6 +36,18 @@
   #win-header{
     color: rgb(192, 192, 192);
     text-shadow: 2px 2px 0 rgb(192, 11, 126);
+    margin: auto;
+    font-family: "Permanent Marker", monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40vh;
+    font-size: 4rem;
+    line-height: 0.75;
+    word-break: break-word;
+    max-width: 500px;
+    text-transform: None;
   
   }
   
@@ -47,7 +59,7 @@
   }
   .title {
     margin: auto;
-    font-family: "Permanent Marker", monospace;
+    font-family: "UnifrakturMaguntia", monospace;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -57,9 +69,11 @@
     line-height: 0.75;
     word-break: break-word;
     max-width: 500px;
+    text-transform: None;
   
   
   }
+  
   
   
   .title h1 {
