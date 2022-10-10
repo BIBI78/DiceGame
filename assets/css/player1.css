@@ -31,10 +31,23 @@ a {
     margin: 0;
   }
 
+h3{
+  color: rgb(192, 192, 192);
+  text-shadow: 2px 2px 0 rgb(192, 11, 126);
+  margin: auto;
+  font-family: "Permanent Marker", monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 3rem;
+  text-transform: None;
 
+}
   #win-header{
-    color: rgb(192, 192, 192);
-    text-shadow: 2px 2px 0 rgb(192, 11, 126);
+    color:  rgb(192, 11, 126);
+    /* color: rgb(192, 192, 192); */
+    text-shadow: 2px 2px 0 rgb(192, 192, 192);
     margin: auto;
     font-family: "Permanent Marker", monospace;
     display: flex;
