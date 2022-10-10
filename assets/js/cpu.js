@@ -356,30 +356,30 @@ function p2RollAgain(){
     
    if(compareValueOne ===1000)  {
     console.log("automatic win player 1");
-    document.querySelector('h1').innerHTML = 'Automatic Win PLAYER 1'
+    document.querySelector('h3').innerHTML = 'Automatic Win PLAYER 1'
     
     
     } else if (compareValueOne === 0){
     console.log("automatic lose player 1");
-    document.querySelector('h1').innerHTML = 'Automatic Lose PLAYER 1'
+    document.querySelector('h3').innerHTML = 'Automatic Lose PLAYER 1'
   
   } else if (myRollOne[0] === myRollOne[1] && myRollOne[1] === myRollOne[2]){
   
-    document.querySelector('h1').innerHTML = 'Tripple' 
+    document.querySelector('h3').innerHTML = 'Tripple' 
     
     }else if (myRollOne[1] === myRollOne[2]){
-      document.querySelector('h1').innerHTML = 'Snake Eyes'
+      document.querySelector('h3').innerHTML = 'Snake Eyes'
   
     }else if (myRollOne[1] === myRollOne[0]){
-      document.querySelector('h1').innerHTML = 'Snake Eyes'
+      document.querySelector('h3').innerHTML = 'Snake Eyes'
   
     }else if (myRollOne[0] === myRollOne[2]){
-      document.querySelector('h1').innerHTML = 'Snake Eyes'
+      document.querySelector('h3').innerHTML = 'Snake Eyes'
   
-    //??????? why does this keep coming up?  
+     
     } else {
-    console.log("no idea what case this is")
-    document.querySelector('h1').innerHTML = 'Snake Eyes'
+    console.log("final case")
+    document.querySelector('h3').innerHTML = 'Snake Eyes'
   
   
   
@@ -516,25 +516,25 @@ function p2RollAgain(){
         
         } else if (compareValueTwo === 0){
         console.log("automatic lose player 2");
-        document.querySelector('h1').innerHTML = 'Automatic Lose CPU'
+        document.querySelector('h3').innerHTML = 'Automatic Lose CPU'
       
       } else if (myRollTwo[0] === myRollTwo[1] && myRollTwo[1] === myRollTwo[2]){
       
-        document.querySelector('h1').innerHTML = 'Tripple' 
+        document.querySelector('h3').innerHTML = 'Tripple' 
         
         }else if (myRollTwo[1] === myRollTwo[2]){
-          document.querySelector('h1').innerHTML = 'Snake Eyes'
+          document.querySelector('h3').innerHTML = 'Snake Eyes'
       
         }else if (myRollTwo[1] === myRollTwo[0]){
-          document.querySelector('h1').innerHTML = 'Snake Eyes'
+          document.querySelector('h3').innerHTML = 'Snake Eyes'
       
         }else if (myRollTwo[0] === myRollTwo[2]){
-          document.querySelector('h1').innerHTML = 'Snake Eyes'
+          document.querySelector('h3').innerHTML = 'Snake Eyes'
       
-        //??????? why does this keep coming up?  
+        
         } else {
         console.log("slatt")
-        document.querySelector('h1').innerHTML = 'Snake Eyes'
+        document.querySelector('h3').innerHTML = 'Snake Eyes'
       
         }
      
@@ -560,32 +560,32 @@ function p2RollAgain(){
 
     if (compareValueOne < compareValueTwo){
         console.log("CPU Wins");
-        document.querySelector('h1').innerHTML = 'CPU Wins'
+        document.querySelector('h3').innerHTML = 'CPU Wins'
         // document.getElementsByClassName('winner').innerHTML = 'TEST 4pf'
         
         } else if(compareValueOne > compareValueTwo) {
         console.log("Player One Wins");
-        document.querySelector('h1').innerHTML = 'Player One Wins'
+        document.querySelector('h3').innerHTML = 'Player One Wins'
         
         }else if(compareValueOne ===100)  {
         console.log("automatic win player 1");
-        document.querySelector('h1').innerHTML = 'Automatic Win PLAYER 1'
+        document.querySelector('h3').innerHTML = 'Automatic Win PLAYER 1'
       
       
         } else if (compareValueOne === 0){
         console.log("automatic lose player 1");
-        document.querySelector('h1').innerHTML = 'Automatic Lose PLAYER 1'
+        document.querySelector('h3').innerHTML = 'Automatic Lose PLAYER 1'
         
         } else if (compareValueTwo === 0){
         console.log("automatic lose player 2")
-        document.querySelector('h1').innerHTML = 'Automatic Lose CPU'
+        document.querySelector('h3').innerHTML = 'Automatic Lose CPU'
         
         }  else if (compareValueTwo === 100){
         console.log("automatic win CPU")
-        document.querySelector('h1').innerHTML = 'Automatic Win CPU'
+        document.querySelector('h3').innerHTML = 'Automatic Win CPU'
         } else if (compareValueOne === compareValueTwo){
         console.log("equals , so roll again ")
-        document.querySelector('h1').innerHTML = 'Roll Again'
+        document.querySelector('h3').innerHTML = 'Roll Again'
         
         } else {
         console.log("slatt")
@@ -787,32 +787,32 @@ d6.addEventListener('animationend', removeSpinClass);
 
 if (compareValueOne < compareValueTwo){
 console.log("CPU Wins");
-document.querySelector('h1').innerHTML = 'CPU Wins'
+document.querySelector('h3').innerHTML = 'CPU Wins'
 // document.getElementsByClassName('winner').innerHTML = 'TEST 4pf'
 
 } else if(compareValueOne > compareValueTwo) {
 console.log("Player One Wins");
-document.querySelector('h1').innerHTML = 'Player One Wins'
+document.querySelector('h3').innerHTML = 'Player One Wins'
 
 }else if(compareValueOne ===100)  {
 console.log("automatic win player 1");
-document.querySelector('h1').innerHTML = 'Automatic Win PLAYER 1'
+document.querySelector('h3').innerHTML = 'Automatic Win PLAYER 1'
 
 
 } else if (compareValueOne === 0){
 console.log("automatic lose player 1");
-document.querySelector('h1').innerHTML = 'Automatic Lose PLAYER 1'
+document.querySelector('h3').innerHTML = 'Automatic Lose PLAYER 1'
 
 } else if (compareValueTwo === 0){
 console.log("automatic lose player 2")
-document.querySelector('h1').innerHTML = 'Automatic CPU'
+document.querySelector('h3').innerHTML = 'Automatic CPU'
 
 }  else if (compareValueTwo === 100){
 console.log("automatic win player 2")
-document.querySelector('h1').innerHTML = 'Automatic CPU'
+document.querySelector('h3').innerHTML = 'Automatic CPU'
 } else if (compareValueOne === compareValueTwo){
 console.log("equals , so roll again ")
-document.querySelector('h1').innerHTML = 'Roll Again'
+document.querySelector('h3').innerHTML = 'Roll Again'
 
 } else {
 console.log("no idea what case this is")

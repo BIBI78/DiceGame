@@ -47,7 +47,7 @@ h3{
   #win-header{
     color:  rgb(192, 11, 126);
     /* color: rgb(192, 192, 192); */
-    text-shadow: 2px 2px 0 rgb(192, 192, 192);
+    text-shadow: 2px 2px 0 rgb(101, 241, 36);
     margin: auto;
     font-family: "Permanent Marker", monospace;
     display: flex;
