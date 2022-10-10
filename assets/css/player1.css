@@ -127,15 +127,20 @@ a {
     color:  rgb(44, 226, 24);
     text-shadow: 2px 2px 0  rgb(116, 122, 117)
   }
+
+
   .button{
-    font-size: 1.5rem;
-     }
+ font-size: 1.5rem;
+  }
+
   
 /* DOESNT REALLY DO MUCH ...BUT IM OVER IT */
   .button:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   
   }
+
+  
 
 
   /* NOT EVEN SURE IF THIS WORKS  */
@@ -189,3 +194,6 @@ a {
       
       
       }
+
+      
+    
