@@ -35,12 +35,7 @@ function play() {
 
 
 
-// const buttonn = document.getElementById("btn")
 
-// buttonn.addEventListener("click", function(){
-
-//   rollSpinKompareLoop()
-// } )
 
 
 
@@ -560,7 +555,7 @@ function p2RollAgain(){
   }
 
 
-  function Kompare(){
+  function oldKompare(){
 
     if (compareValueOne < compareValueTwo){
         console.log("CPU Wins");
@@ -597,8 +592,8 @@ function p2RollAgain(){
 
   }
 
-// this might be the new compare , so when i click one button it does it automatically
-function oldKompare(){
+
+function Kompare(){
 
 
   document.getElementById('d1').className = 'spinImg'

@@ -43,13 +43,6 @@ function play() {
 
 
 
-// const buttonn = document.getElementById("btn")
-
-// buttonn.addEventListener("click", function(){
-
-//   rollSpinKompareLoop()
-// } )
-
 
 
 
