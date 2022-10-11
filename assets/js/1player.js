@@ -12,6 +12,12 @@ function spin() {
 
 }
 
+let restartBtn = document.getElementById("restart")
+
+restartBtn.addEventListener("click", function(){
+  window.location.reload()
+})
+
 
 
 
@@ -37,12 +43,12 @@ function play() {
 
 
 
-const buttonn = document.getElementById("btn")
+// const buttonn = document.getElementById("btn")
 
-buttonn.addEventListener("click", function(){
+// buttonn.addEventListener("click", function(){
 
-  rollSpinKompareLoop()
-} )
+//   rollSpinKompareLoop()
+// } )
 
 
 
