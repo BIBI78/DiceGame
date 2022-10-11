@@ -46,6 +46,10 @@ I. Roll/Kompare Fucntion
 ![example2](assets/images/codetop.png)
 
 ### HTML/CSS Validator
+* No errors were returned when passing through the official CSS [W3 validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbibi78.github.io%2FDiceGame%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
+[CSS](assets/images/cssval.png)
+
+* No errors were returned when passing through the official HTML [W3 validator](https://validator.w3.org/nu/)
 
 
 
@@ -67,7 +71,7 @@ I. Roll/Kompare Fucntion
 * The font came from [Google Fonts](https://fonts.google.com/about) .
 * The changing die face img idea came from [YouTube](https://www.youtube.com/watch?v=B17NC5DD-dA&t=883s)
 * The Gradient idea came from [YouTube](https://www.youtube.com/watch?v=f3mwKLXpOLk) as well. 
-* The layout CSS I got the inspiration from the STREET FIGHTER game and page like [THIS](https://codepen.io/jkneb/pen/DRWdGg)
+* The layout CSS I got the inspiration from the STREET FIGHTER game and page like [THIS](https://codepen.io/jkneb/pen/DRWdGg) & [THIS](https://dev.to/annlin/build-a-cool-thing-street-fighter-website-16j)
 
 ## Media 
 * All images came from Google.
