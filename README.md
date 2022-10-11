@@ -47,9 +47,10 @@ I. Roll/Kompare Fucntion
 
 ### HTML/CSS Validator
 * No errors were returned when passing through the official CSS [W3 validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbibi78.github.io%2FDiceGame%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
-[CSS](assets/images/cssval.png)
+![CSS](assets/images/cssval.png)
 
-* No errors were returned when passing through the official HTML [W3 validator](https://validator.w3.org/nu/)
+* No errors were returned when passing through the official HTML [W3 validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbibi78.github.io%2FDiceGame%2F)
+![HTML](assets/images/htmlval.png)
 
 
 
