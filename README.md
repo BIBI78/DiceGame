@@ -62,3 +62,14 @@ I. Roll/Kompare Fucntion
 * All the directions given in the course video were followed.
 * The site is linked here https://bibi78.github.io/DiceGame/
 
+# Credits 
+## Content
+* The font came from [Google Fonts](https://fonts.google.com/about) .
+* The changing die face img idea came from [YouTube](https://www.youtube.com/watch?v=B17NC5DD-dA&t=883s)
+* The Gradient idea came from [YouTube](https://www.youtube.com/watch?v=f3mwKLXpOLk) as well. 
+* The layout CSS I got the inspiration from the STREET FIGHTER game and page like [THIS](https://codepen.io/jkneb/pen/DRWdGg)
+
+## Media 
+* All images came from Google.
+
+
