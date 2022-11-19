@@ -827,4 +827,3 @@ function removeH1(){
 
 }
   
-  
