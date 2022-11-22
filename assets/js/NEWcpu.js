@@ -19,9 +19,6 @@ restartBtn.addEventListener("click", function(){
 })
 
 
-function removeSpinClass() {
-  snake.classList.remove('spinImg');
-}
 
 
 
@@ -816,9 +813,6 @@ console.log("no idea what case this is")
   
 
 
-function removeH1(){
-
-}
 
 
 
@@ -826,4 +820,3 @@ function removeH1(){
    
 
 }
-  
