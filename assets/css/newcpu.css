@@ -184,13 +184,12 @@ a {
           margin: 0;
       }
 
-/* KINDA DONT REALLY NEED THIS  */
+/* KINDA  REALLY NEED THIS  */
       .die{
-         height :60%;
-        width : 12%; 
-       
-        margin-bottom: 3%;
-      
+
+         /* height ;
+         width : 12%; 
+         margin-bottom: 3%; */
       
       }
     
